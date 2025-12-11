@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Filipe-Inacio-Da-Silva">
+    <title>Projecto</title>
+    <link rel="stylesheet" href="Redes.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="home">Projecto</h1>
+
+    </header>
+    <main>
+
+        <nav>
+
+            <ul class="Projecto">
+                <li><a href="Index.html">Pagina Principal</a></li>
+                <li><a href="Habilidades.html">Habilidades</a></li>
+                <li><a href="#" class="third"> Projecto</a></li>
+                <li><a href="Contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+
+        <section class="Left">
+
+        </section>
+
+        <div class="divisao">
+            <h1>Projetos</h1>
+            <h1>1. Configuracao de Rede com VLANs e Inter-VLAN Routing</h1>
+            <p><strong>Ferramentas:</strong> Cisco Packet Tracer</p>
+            <p><strong>Objectivo:</strong> Separar departamentos em redes distintas melhorando segurança e performance.
+            </p>
+
+            <h3>Topologia:</h3>
+            <ul>
+                <li>VLAN 10 - Administracao</li>
+                <li>VLAN 20 - Vendas</li>
+                <li>VLAN 30 - TI</li>
+                <li>Router-on-a-stick</li>
+            </ul>
+
+            <h3>Comandos principais:</h3>
+            <p class="M">enable;
+                conf t;
+                vlan 10;
+                vlan 20;
+                vlan 30;
+                interface g0/1;
+                swictport mode trunk;
+                interface g0/1.10;
+                encapsulation dot1q 10;
+                ip adress 192..168.10.1 255.255.255.0;
+            </p>
+
+            <h3>Resultado:</h3>
+            <p>Dispositivos de redes diferentes comunicando via router-on-a-stick.
+                Ping bem-sucedido entre VLANs.</p>
+
+            <h1>2. Servidor DHCP no Windows Server 2022</h1>
+            <p><strong>Objetivo:</strong> Automatizar atribuiçao de enderenço IP para 50 Maquinas.</p>
+            <h3>Passos:</h3>
+            <ul>
+                <li>Instalei o DHCP Role</li>
+                <li>Criei um escopo 192.168.1.10-192.168.1.200</li>
+                <li>Configurei reservas para impressoras e cameras</li>
+                <li>Testes com ipconfig/renew</li>
+            </ul>
+            <h3>Resultado:</h3>
+            <p>A rede ficou totalmente automatica e sem conflitos IP.</p>
+
+            <ul class="Next">
+                <li><a href="Pagina 2.html">Seguinte</a></li>
+            </ul>
+
+
+
+        </div>
+
+        <section class="Right">
+
+        </section>
+
+
+
+    </main>
+    <footer>
+        <h1>Filipe Inacio Da Silva</h1>
+        
+    </footer>
+
+</body>
+
+</html>

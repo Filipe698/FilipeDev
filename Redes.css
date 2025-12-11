@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: black;
+
+}
+.L {
+    padding: 0px;
+    margin: 0px 0px 0px 40px;
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 10px;
+}
+
+.home {
+    display: flex;
+    margin: 0px 0px 0px 600px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: 2px solid gray;
+    background-image: url(FLP/Nuvem.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+aside {
+    margin: 4px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    height: 460px;
+    width: 707px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, rgb(177, 227, 252), rgba(18, 226, 253, 0.664)), url(FLP/div.jpg);
+}
+
+p {
+    margin: 0px 0px 0px 20px;
+    font-size: 17px;
+}
+
+li {
+    margin: 0px 0px 0px 23px;
+}
+
+h1 {
+    font-size: 20px;
+
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+h1 h2 h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bolder;
+    border: 4px solid Gray;
+    background-color: white;
+    margin: 2px 20px 2px 2px;
+
+}
+
+a:hover {
+    background: linear-gradient(to right, rgb(199, 55, 55), rgb(10, 102, 223));
+    Color: White;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.first {
+    background: linear-gradient(to right, rgb(199, 55, 55), rgb(10, 102, 223));
+    Color: White;
+}
+
+.second {
+    background: linear-gradient(to right, rgb(199, 55, 55), rgb(10, 102, 223));
+    Color: White;
+
+}
+
+.third {
+    background: linear-gradient(to right, rgb(199, 55, 55), rgb(10, 102, 223));
+    Color: White;
+}
+
+.fourth {
+    background: linear-gradient(to right, rgb(199, 55, 55), rgb(10, 102, 223));
+    Color: White;
+
+}
+
+.A {
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.M {
+    background: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0px 0px 0px 4px;
+    margin: 0px 10px 0px 30px;
+}
+
+.T {
+    padding: 100px 20px 0px 20px;
+
+}
+
+.Projecto {
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Next {
+    list-style: none;
+    padding: 10px;
+    margin: 440px 0px 20px 570px;
+    position: absolute;
+    top: 0;
+}
+
+.Back {
+    list-style: none;
+    padding: 10px;
+    margin: 440px 0px 20px 450px;
+    position: absolute;
+    top: 0;
+}
+
+
+.divisao {
+    margin: 4px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    height: 460px;
+    width: 707px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, rgb(27, 136, 190), rgba(8, 226, 255, 0.575)), url(FLP/div.jpg);
+}
+
+.Contacto {
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+}
+
+.H {
+    list-style: none;
+    padding: 20px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.Left {
+    /* background-color: rgb(8, 48, 71);*/
+    margin: 4px 0px 0px 4px;
+    padding: 0;
+    display: inline-block;
+    height: 500px;
+    width: 290px;
+    background-image: url(FLP/Chip.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Right {
+    /*background-color: brown;*/
+    margin: 4px 4px 0px 0px;
+    padding: 0;
+    display: inline-block;
+    height: 500px;
+    width: 290px;
+    background-image: url(FLP/Redes.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.Habi {
+    background:url(FLP/Chip.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 4px 4px 0px 0px;
+    padding: 0;
+    display: inline-block;
+    height: 500px;
+    width: 290px;
+
+}
+
+.Hab {
+    background-color: aquamarine;
+    margin: 0px 0px 0px 4px;
+    padding: 0;
+    display: inline-block;
+    height: 500px;
+    width: 290px;
+    background:url(FLP/Redes.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+footer {
+    margin: 0px 4px 0px 4px;
+    padding: 10px;
+    display: block;
+    background-color: rgb(53, 130, 160);
+    text-align: center;
+    color: white;
+}
+
+.foot {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    top: 0;
+    position: absolute;
+    margin: 29px 0px 0px 100px;
+}
+
+.cc {
+    border: none;
+    background-color: rgba(0, 255, 255, 0);
+    padding: 0;
+    margin: 0;
+}
