@@ -16,6 +16,7 @@ header {
     background-color: black;
 
 }
+
 .L {
     padding: 0px;
     margin: 0px 0px 0px 40px;
@@ -185,7 +186,7 @@ a:hover {
     position: relative;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, rgb(27, 136, 190), rgba(8, 226, 255, 0.575)), url(FLP/div.jpg);
+    background: linear-gradient(to left, rgb(33, 162, 226), #01daf7), url(FLP/div.jpg);
 }
 
 .Contacto {
@@ -228,7 +229,7 @@ a:hover {
 }
 
 .Habi {
-    background:url(FLP/Chip.jpeg);
+    background: url(FLP/Chip.jpeg);
     background-position: center;
     background-size: cover;
     margin: 4px 4px 0px 0px;
@@ -246,10 +247,18 @@ a:hover {
     display: inline-block;
     height: 500px;
     width: 290px;
-    background:url(FLP/Redes.png);
+    background: url(FLP/Redes.png);
     background-position: center;
     background-size: cover;
 
+}
+
+#Esconder {
+    display: none;
+}
+
+.Esquerdo {
+    display: none;
 }
 
 footer {
@@ -279,3 +288,268 @@ footer {
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+
+    .Esquerdo {
+        background-color: rgb(29, 147, 202);
+        font-size: 11px;
+        color: blue;
+        display: block;
+        margin: 0px 0px 0px 4px;
+        padding: 0px 2px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+    .A {
+        display: none;
+        background: #eee;
+        padding: 10px;
+        margin: 0;
+        list-style: none;
+    }
+
+    .A li {
+        margin-bottom: 10px;
+    }
+
+
+    .home {
+        margin: 0vh 0vh 0vh 27vh;
+        padding: 0vh;
+
+    }
+
+    nav {
+        position: sticky;
+        width: 124vw;
+    }
+
+    a {
+        margin: 0vh;
+        padding: 0vh;
+    }
+
+
+   .T {
+    margin: 80px 0px 0px 80px;
+    padding:20px 0px 0px 10px;
+}
+
+    .w {
+        margin: 5px 80px 0px 80px;
+        padding: 0px 2px 0px 10px;
+
+    }
+
+
+    .Left {
+        height: 15vh;
+        width: 127vw;
+        margin: 0px 0px 0px 6px;
+
+    }
+
+    .divisao {
+        height: 50vh;
+        width: 80vw;
+        padding: 0px 2px 0px 2px;
+        margin: 0px 0px 0px 6px;
+
+
+    }
+
+    .Right {
+        height: 20vh;
+        width: 124vw;
+        margin: 0px 0px 0px 6px;
+
+
+    }
+
+    footer {
+        width: 118vw;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .Esquerdo {
+        background-color: rgb(29, 147, 202);
+        font-size: 11px;
+        color: blue;
+        display: block;
+        margin: 0px 0px 0px 4px;
+        padding: 0px 2px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+    .A {
+        display: none;
+        background: #eee;
+        padding: 10px;
+        margin: 0;
+        list-style: none;
+    }
+
+    .A li {
+        margin-bottom: 10px;
+    }
+
+
+    .home {
+        margin: 0vh 0vh 0vh 20vh;
+        padding: 0vh;
+
+    }
+
+    nav {
+        position: sticky;
+        width: 96vw;
+    }
+
+    a {
+        margin: 0vh;
+        padding: 0vh;
+    }
+
+
+    .T {
+        padding: 20px 2px 0px 10px;
+    }
+
+    .w {
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    .Left {
+        height: 15vh;
+       width: 97.8vw;
+        margin: 0px 0px 0px 6px;
+
+    }
+
+    .divisao {
+        height: 50vh;
+        width: 97vw;
+        margin: 0px 0px 0px 6px;
+
+
+    }
+
+.T {
+    margin: 55px 0px 0px 80px;
+    padding:20px 0px 0px 10px;
+}
+
+    .w {
+        margin: 5px 80px 0px 80px;
+        padding: 0px 2px 0px 10px;
+
+    }
+
+    .Right {
+        height: 15vh;
+        width: 97.8vw;
+        margin: 0px 0px 0px 6px;
+
+
+    }
+
+    footer {
+        width: 94vw;
+
+    }
+
+}
+
+@media (max-width: 1000px){
+    .menu {
+        display: none;
+    }
+
+
+    .A {
+        display: none;
+        background: #eee;
+        padding: 10px;
+        margin: 0;
+        list-style: none;
+    }
+
+    .A li {
+        margin-bottom: 10px;
+    }
+
+
+    .home {
+        margin: 0vh 0vh 0vh 27vh;
+        padding: 0vh;
+
+    }
+
+    nav {
+        position: sticky;
+        width: 124vw;
+    }
+
+    a {
+        margin: 0vh;
+        padding: 0vh;
+    }
+
+
+   .T {
+    margin: 80px 0px 0px 80px;
+    padding:20px 0px 0px 10px;
+}
+
+    .w {
+        margin: 5px 80px 0px 80px;
+        padding: 0px 2px 0px 10px;
+
+    }
+
+
+    .Left {
+        height: 15vh;
+        width: 98.6vw;
+        margin: 0px 0px 0px 6px;
+
+    }
+
+    .divisao {
+        height: 55vh;
+        width: 98.2vw;
+        padding: 0px 2px 0px 2px;
+        margin: 0px 0px 0px 6px;
+
+
+    }
+
+    .Right {
+        height: 15vh;
+        width: 98.6vw;
+        margin: 0px 0px 0px 6px;
+
+
+    }
+
+    footer {
+      width: 97vw;
+
+    }
+
+
+    }
